@@ -39,10 +39,12 @@ module.exports = {
         },
         'ImportDeclaration': 'never',
         'ExportDeclaration': {
-          'multiline': true
+          'multiline': true,
+          'consistent': true
         },
         'ObjectPattern': {
-          'multiline': true
+          'multiline': true,
+          'consistent': true
         }
       }
     ],
