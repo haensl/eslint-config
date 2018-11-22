@@ -32,7 +32,18 @@ module.exports = {
     'object-curly-newline': [
       'error',
       {
-        'minProperties': 2
+        'ObjectExpression': {
+          'multiline': true,
+          'consistent': true,
+          'minProperties': 2
+        },
+        'ImportDeclaration': 'never',
+        'ExportDeclaration': {
+          'multiline': true
+        },
+        'ObjectPattern': {
+          'multiline': true
+        }
       }
     ],
     'object-curly-spacing': [
@@ -95,7 +106,7 @@ module.exports = {
       2,
       {
         'SwitchCase': 1,
-        'MemberExpression': 1,
+        'MemberExpression': 'off',
         'ArrayExpression': 1,
         'CallExpression': {
           'arguments': 1
@@ -104,9 +115,6 @@ module.exports = {
       }
     ],
     'new-parens': [
-      'error'
-    ],
-    'newline-per-chained-call': [
       'error'
     ],
     'no-multiple-empty-lines': [
