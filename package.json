@@ -1,6 +1,6 @@
 {
   "name": "@haensl/eslint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Default ESLint configuration of HP Dietz.",
   "main": "index.js",
   "publishConfig": {
