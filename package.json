@@ -1,0 +1,33 @@
+{
+  "name": "@haensl/eslint-config",
+  "version": "1.0.0",
+  "description": "Default ESLint configuration of HP Dietz.",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haensl/eslint-config.git"
+  },
+  "keywords": [
+    "ESLint",
+    "config",
+    "rules"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 5"
+  },
+  "author": {
+    "name": "HP Dietz",
+    "url": "https://hpdietz.com",
+    "email": "h.p.dietz@gmail.com",
+    "twitter": "@h_p_d"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haensl/eslint-config/issues"
+  },
+  "homepage": "https://github.com/haensl/eslint-config#readme"
+}
