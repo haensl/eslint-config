@@ -93,7 +93,6 @@ workflows:
       - bundle:
           requires:
             - lint
-            - test
       - bundle-test:
           requires:
             - bundle
