@@ -1,8 +1,8 @@
 {
   "name": "@haensl/eslint-config",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Default ESLint configuration of HP Dietz.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "publishConfig": {
     "access": "public"
   },

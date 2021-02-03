@@ -1,3 +1,4 @@
 *.md
 .*
+*.tgz
 test-results/
