@@ -1,3 +1,6 @@
+## 1.4.0
+* [#4: Migrate to CircleCI.](https://github.com/haensl/eslint-config/issues/4)
+
 ## 1.3.0
 * Require consistent exports.
 
