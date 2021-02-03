@@ -1,3 +1,6 @@
+## 1.4.1
+* [#6: Fix bundle.](https://github.com/haensl/eslint-config/issues/6)
+
 ## 1.4.0
 * [#4: Migrate to CircleCI.](https://github.com/haensl/eslint-config/issues/4)
 
