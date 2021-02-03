@@ -90,7 +90,6 @@ workflows:
     when: always
     jobs:
       - lint
-      - test
       - bundle:
           requires:
             - lint
