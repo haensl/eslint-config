@@ -1,3 +1,6 @@
+## 1.4.2
+* [#10: Update dependencies.](https://github.com/haensl/eslint-config/issues/10)
+
 ## 1.4.1
 * [#6: Fix bundle.](https://github.com/haensl/eslint-config/issues/6)
 
