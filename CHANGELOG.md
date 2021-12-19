@@ -1,3 +1,6 @@
+## 1.4.3
+* [#12: Update dependencies.](https://github.com/haensl/eslint-config/issues/12)
+
 ## 1.4.2
 * [#10: Update dependencies.](https://github.com/haensl/eslint-config/issues/10)
 
