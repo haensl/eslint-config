@@ -1,6 +1,6 @@
 {
   "name": "@haensl/eslint-config",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Default ESLint configuration of HP Dietz.",
   "main": "lib/index.js",
   "publishConfig": {
@@ -8,7 +8,8 @@
   },
   "scripts": {
     "lint": "eslint './**/*.js'",
-    "lint:ci": "eslint --format junit -o test-results/eslint/results.xml './**/*.js'"
+    "lint:ci": "eslint --format junit -o test-results/eslint/results.xml './**/*.js'",
+    "prepare": "if [ $NODE_ENV != 'production' ]; then husky install; fi"
   },
   "eslintConfig": {
     "env": {
