@@ -1,3 +1,6 @@
+## 1.4.5
+* [#16: Add missing `npm prepare` script.](https://github.com/haensl/eslint-config/issues/16)
+
 ## 1.4.4
 * [#14: Add funding information.](https://github.com/haensl/eslint-config/issues/14)
 * Update dependencies.
