@@ -1,3 +1,7 @@
+## 1.4.4
+* [#14: Add funding information.](https://github.com/haensl/eslint-config/issues/14)
+* Update dependencies.
+
 ## 1.4.3
 * [#12: Update dependencies.](https://github.com/haensl/eslint-config/issues/12)
 
