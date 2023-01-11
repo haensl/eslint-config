@@ -1,6 +1,6 @@
 {
   "name": "@haensl/eslint-config",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "Default ESLint configuration of HP Dietz.",
   "main": "lib/index.js",
   "publishConfig": {
@@ -52,6 +52,6 @@
   "homepage": "https://github.com/haensl/eslint-config#readme",
   "devDependencies": {
     "eslint": "^8.5.0",
-    "husky": "^7.0.4"
+    "husky": "^8.0.3"
   }
 }

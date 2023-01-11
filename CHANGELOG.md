@@ -1,3 +1,6 @@
+## 1.4.6
+* [#18: Update dependencies.](https://github.com/haensl/eslint-config/issues/18)
+
 ## 1.4.5
 * [#16: Add missing `npm prepare` script.](https://github.com/haensl/eslint-config/issues/16)
 
