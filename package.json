@@ -1,30 +1,15 @@
 {
   "name": "@haensl/eslint-config",
-  "version": "1.4.6",
+  "version": "2.0.0",
   "description": "Default ESLint configuration of HP Dietz.",
   "main": "lib/index.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint './**/*.js'",
-    "lint:ci": "eslint --format junit -o test-results/eslint/results.xml './**/*.js'",
+    "lint": "ESLINT_USE_FLAT_CONFIG=true eslint './**/*.js'",
+    "lint:ci": "ESLINT_USE_FLAT_CONFIG=true eslint --format junit -o test-results/eslint/results.xml './**/*.js'",
     "prepare": "if [ $NODE_ENV != 'production' ]; then husky install; fi"
-  },
-  "eslintConfig": {
-    "env": {
-      "node": true,
-      "mocha": true,
-      "es6": true
-    },
-    "parserOptions": {
-      "ecmaVersion": 6,
-      "sourceType": "script",
-      "impliedStrict": false
-    },
-    "extends": [
-      "eslint:recommended"
-    ]
   },
   "repository": {
     "type": "git",
@@ -36,7 +21,7 @@
     "rules"
   ],
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": ">= 9"
   },
   "author": {
     "name": "HP Dietz",
@@ -51,7 +36,8 @@
   },
   "homepage": "https://github.com/haensl/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^8.5.0",
-    "husky": "^8.0.3"
+    "eslint": "^9.11.1",
+    "eslint-formatter-junit": "^8.40.0",
+    "husky": "^9.1.6"
   }
 }

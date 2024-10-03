@@ -1,3 +1,6 @@
+## 2.0.0
+* [#20: Migrate to eslint v9 flat config.](https://github.com/haensl/eslint-config/issues/20)
+
 ## 1.4.6
 * [#18: Update dependencies.](https://github.com/haensl/eslint-config/issues/18)
 
